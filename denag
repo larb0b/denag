@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/ksh
 #
 # Wrapper for the Silicon Graphics MIPSpro C and C++ compiler.  Disables
 # the license 'nag' screen from stderr.
