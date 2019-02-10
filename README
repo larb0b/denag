@@ -8,12 +8,14 @@ denag
 How to install
 --------------
 
-   See INSTALL.
+   Manually: See INSTALL.
+   Automatically: Run install.sh as root.
 
 How to remove
 -------------
 
-   See REMOVE.
+   Manually: See REMOVE.
+   Automatically: Run remove.sh as root.
 
 What it does
 ------------
