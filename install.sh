@@ -4,10 +4,8 @@ if [ `id -u` -ne 0 ]; then
    echo "Must be run as root." 
    exit 1
 fi
-if [ ! -d "/usr/local/bin" ]; then
-	echo "Creating /usr/local/bin"
-	mkdir -p /usr/local/bin 
-fi
+echo "Creating /usr/local/bin"
+mkdir -p /usr/local/bin 
 echo "Copying denag to /usr/local/bin"
 cp denag /usr/local/bin 
 echo "Creating /usr/denag"
